@@ -27,9 +27,9 @@ Para elevar a complexidade e aproximar o projeto do cenário real de mercado, a 
 Os scripts foram divididos de forma semântica seguindo boas práticas de desenvolvimento:
 
 1. Execute o script de estrutura (DDL):
-   - Localizado em: [`src/schema_relacional_ecommerce.sql`](./src/schema_relacional_ecommerce.sql)
+   - Localizado em: [`schema_relacional_ecommerce.sql`](./src/schema_relacional_ecommerce.sql)
 2. Execute o script de população de dados e relatórios (DML/DQL):
-   - Localizado em: [`src/queries_and_data_insertion.sql`](./src/queries_and_data_insertion.sql)
+   - Localizado em: [`queries_and_data_insertion.sql`](./src/queries_and_data_insertion.sql)
 
 ---
 
