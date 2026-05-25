@@ -27,9 +27,9 @@ Para elevar a complexidade e aproximar o projeto do cenário real de mercado, a 
 Os scripts foram divididos de forma semântica seguindo boas práticas de desenvolvimento:
 
 1. Execute o script de estrutura (DDL):
-   - Localizado em: `src/schema_relacional_ecommerce.sql`
+   - Localizado em: [`src/schema_relacional_ecommerce.sql`](./src/schema_relacional_ecommerce.sql)
 2. Execute o script de população de dados e relatórios (DML/DQL):
-   - Localizado em: `src/queries_and_data_insertion.sql`
+   - Localizado em: [`src/queries_and_data_insertion.sql`](./src/queries_and_data_insertion.sql)
 
 ---
 
@@ -41,6 +41,12 @@ O projeto conta com consultas customizadas simulando relatórios gerenciais reai
 * **Conflito de Interesses (Compliance):** *Algum vendedor terceirizado (seller) também atua como fornecedor de atacado?* (Validação cruzada de CNPJs via `INNER JOIN`).
 * **Valor de Ativo Fixo:** *Quais produtos possuem estoque elevado e qual o valor financeiro total parado por galpão?* (Uso de **Atributo Derivado** multiplicando estoque por preço unitário).
 * **Faturamento por Categoria:** *Quais nichos de produtos faturaram acima de R$ 100,00 líquidos?* (Aplicação fina da cláusula de agrupamento restritivo `HAVING`).
+
+---
+
+## 🖼️ Demonstração do diagrama EER:
+
+![Diagrama EER](img/E-commerce.png)
 
 ---
 
